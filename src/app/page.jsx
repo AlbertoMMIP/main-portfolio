@@ -5,7 +5,7 @@ const Homepage = () => {
   return (
   <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
     <div className="h-1/2 lg:h-full lg:w-1/2 relative">
-      <Image src="/hero.png" alt="meNot" fill className="object-contain"/>
+      <Image src="/hero.png" alt="meNot" fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"  className="object-contain"/>
     </div>
     <div className="h-1/2 flex flex-col lg:h-full lg:w-1/2 gap-8 items-center justify-center">
       <h1 className="text-4xl md:text-6xl font-bold">KISS (Keep it simple star)</h1>
