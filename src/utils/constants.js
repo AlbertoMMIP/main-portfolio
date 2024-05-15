@@ -5,6 +5,7 @@ const constants = Object.freeze({
     { id: 3, url: "/portfolio", title: "Portfolio"},
     { id: 4, url: "/contact", title: "Contact"},
   ],
+  skills: ['JavaScript', 'Node', 'GraphQL', 'PostgresQL', 'Express', 'React', 'Vue', 'GIT', 'HTML', 'CSS', 'Adaptability', 'Time Management', 'Conflict Resolution', 'Organizational', 'Agile Methodologies']
 })
 
 export default constants;
