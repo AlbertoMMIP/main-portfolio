@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const Homepage = () => {
 
@@ -13,10 +14,10 @@ const Homepage = () => {
         </div>
         <div className="h-1/2 flex flex-col lg:h-full lg:w-1/2 gap-8 items-center justify-center">
           <h1 className="text-4xl md:text-6xl font-bold">KISS (Keep it simple star)</h1>
-          <p className="md:text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi asperiores voluptatibus exercitationem ut eligendi saepe maiores at reprehenderit iusto iste voluptates quas voluptatum rem eius, quidem, libero vel aspernatur cumque?</p>
+          <p className="md:text-xl">Hi there! Welcome to my portfolio web app. Here you can find all my information as profesional, education, experience, languages and more.</p>
           <div className="w-full flex gap-4">
-            <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">View my work</button>
-            <button className="p-4 rounded-lg ring-1 ring-black">Contact Me</button>
+            <Link href={'/about'}><button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">About me!</button></Link>
+            <Link href={'/contact'}><button className="p-4 rounded-lg ring-1 ring-black">Contact me!</button></Link>
           </div>
         </div>
       </div>

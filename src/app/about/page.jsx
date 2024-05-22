@@ -22,11 +22,17 @@ const AboutPage = () => {
           {/* BIOGRAPHY CONTAINER */}
           <div className="flex flex-col gap-12 justify-center">
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
-            <p className="text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quam, molestiae blanditiis quo praesentium tempora harum debitis quisquam totam nam optio quas aut veritatis distinctio consectetur, et dicta voluptates doloribus.
+            <p className="text-md">
+              My name is Alberto Martinez and I am Software Engineer. I was born in Mexico City, I have a bachelor degree as Telematic Engineer, I studied a bootcamp in Full Stack Web Development, I studied English for 6 months in Vancouver CA and I've studied a lot of courses by myself. I'm writing this because I'm passionate about learning, I think learning is one of the best skill that the human can do. However something even better is applying all that knowledge.
+            </p>
+            <p className="text-md">
+              I have more 11 years of experience working in financial area, working with banks companies managing differents kinds of products, as loan, factoring, morgage, credit cards and more. 
+            </p>
+            <p className="text-md">
+              My tech stack at this moment is all about JavaScript. I work with Node, Graphql, Express for back-end side, I use Postgres, SQL, Oracle for data bases, I use React, Vue, HTML, CSS, UIkit, MaterialUI, Bulma for Front-end side and I know to work perfectly with version control code using GIT, moreover I really like working with agile methodologies as Scrum and Safe.
             </p>
             <span className="italic">
-              Exercitationem quam, molestiae blanditiis quo praesentium tempora
+              The simplicity is the key word for happinest.
             </span>
             <motion.svg 
               initial={{opacity: 0.2, y: 0}}
@@ -79,10 +85,10 @@ const AboutPage = () => {
               <div className="flex justify-between h-48">
                 {/* LEFT */}
                 <div className="w-1/3">
-                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">Name Role Inside Company</div>
-                  <div className="p-3 text-sm italic">Description role - Description role - Description role - Description role - Description role - Description role - Description role - Description role - Description role</div>
-                  <div className="p-3 text-red-400 text-sm font-semibold">Job date</div>
-                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">Job company</div>
+                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">{constants.experience[0].rol}</div>
+                  <div className="p-3 text-sm">{constants.experience[0].summary}</div>
+                  <div className="p-3 text-red-400 text-sm font-semibold">{constants.experience[0].from}-{constants.experience[0].to}</div>
+                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">{constants.experience[0].company}</div>
                 </div>
                 {/* CENTER */}
                 <div className="w-1/6 flex justify-center">
@@ -105,19 +111,19 @@ const AboutPage = () => {
                 </div>
                 {/* RIGHT */}
                 <div className="w-1/3">
-                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">Name Role Inside Company</div>
-                  <div className="p-3 text-sm italic">Description role - Description role - Description role - Description role - Description role - Description role - Description role - Description role - Description role</div>
-                  <div className="p-3 text-red-400 text-sm font-semibold">Job date</div>
-                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">Job company</div>
+                <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">{constants.experience[1].rol}</div>
+                  <div className="p-3 text-sm">{constants.experience[1].summary}</div>
+                  <div className="p-3 text-red-400 text-sm font-semibold">{constants.experience[1].from}-{constants.experience[1].to}</div>
+                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">{constants.experience[1].company}</div>
                 </div>
               </div>
               <div className="flex justify-between h-48">
                 {/* LEFT */}
                 <div className="w-1/3">
-                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">Name Role Inside Company</div>
-                  <div className="p-3 text-sm italic">Description role - Description role - Description role - Description role - Description role - Description role - Description role - Description role - Description role</div>
-                  <div className="p-3 text-red-400 text-sm font-semibold">Job date</div>
-                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">Job company</div>
+                <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">{constants.experience[2].rol}</div>
+                  <div className="p-3 text-sm">{constants.experience[2].summary}</div>
+                  <div className="p-3 text-red-400 text-sm font-semibold">{constants.experience[2].from}-{constants.experience[2].to}</div>
+                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">{constants.experience[2].company}</div>
                 </div>
                 {/* CENTER */}
                 <div className="w-1/6 flex justify-center">

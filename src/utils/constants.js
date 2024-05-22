@@ -5,7 +5,7 @@ const constants = Object.freeze({
     { id: 3, url: "/portfolio", title: "Portfolio"},
     { id: 4, url: "/contact", title: "Contact"},
   ],
-  skills: ['JavaScript', 'Node', 'GraphQL', 'PostgresQL', 'Express', 'React', 'Vue', 'GIT', 'HTML', 'CSS', 'Adaptability', 'Time Management', 'Conflict Resolution', 'Organizational', 'Agile Methodologies'],
+  skills: ['JavaScript', 'Node', 'GraphQL', 'SQL', 'Postgres', 'Sequalize', 'knex', 'Express', 'AWS', 'S3', 'EC2', 'React', 'Framer-Motion', 'EmailJS', 'Vue', 'GIT', 'HTML', 'CSS', 'Adaptability', 'Time Management', 'Conflict Resolution', 'Organizational', 'Agile Methodologies'],
   projects: [
     {
       id: 1,
@@ -30,9 +30,16 @@ const constants = Object.freeze({
     },
     {
       id: 4,
-      title: 'Todo list',
-      desc: 'Little site to practice recoil to handle the state of a react application',
-      url: 'https://github.com/AlbertoMMIP/todo-list',
+      title: 'Organizer',
+      desc: 'Site to assign people to their tables at my weding party.',
+      url: 'https://albertommip.github.io/organizer/build/',
+      img: 'https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    },
+    {
+      id: 5,
+      title: 'Portfolio',
+      desc: 'First personal web',
+      url: 'https://albertommip.github.io/portfolio/',
       img: 'https://images.pexels.com/photos/2432221/pexels-photo-2432221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     }
   ],

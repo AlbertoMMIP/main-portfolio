@@ -85,16 +85,16 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="hidden md:flex gap-4 w-1/3 justify-end">
-        <Link href="#">          
+        <Link href="https://github.com/AlbertoMMIP" target="_blank">          
           <Image src="/github.png" alt="github.com" width={24} height={24} />
         </Link>
-        <Link href="#">          
-          <Image src="/instagram.png" alt="github.com" width={24} height={24} />
+        <Link href="https://www.instagram.com/albmrtzmxn?igsh=a3czcDZ3cWd2cXF4&utm_source=qr" target="_blank">          
+          <Image src="/instagram.png" alt="instagram.com" width={24} height={24} />
         </Link>
-        <Link href="#">          
+        <Link href="https://pin.it/5ppeONOG4" target="_blank">          
           <Image src="/pinterest.png" alt="github.com" width={24} height={24} />
         </Link>
-        <Link href="#">          
+        <Link href="https://linkedin.com/in/alberto-martinezz" target="_blank">          
           <Image src="/linkedin.png" alt="github.com" width={24} height={24} />
         </Link>
       </div>

@@ -28,8 +28,8 @@ const PortfolioPage = () => {
                     <Image src={project.img} alt="" fill />
                   </div>
                   <p className="w-80 md:w-96 lg:w-[500px] lg:text-lg xl:w-[600px]">{project.desc}</p>
-                  <Link href={project.url} className="flex justify-end">
-                    <button className="p-2 text-sm md:p-4 md:text-md lg:p-8 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">See repo!</button>
+                  <Link href={project.url} className="flex justify-end" target="_blank">
+                    <button  className="p-2 text-sm md:p-4 md:text-md lg:p-8 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">See repo!</button>
                   </Link>
                 </div>
               </div>
