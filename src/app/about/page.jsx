@@ -23,7 +23,7 @@ const AboutPage = () => {
           <div className="flex flex-col gap-12 justify-center">
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             <p className="text-md">
-              My name is Alberto Martinez and I am Software Engineer. I was born in Mexico City, I have a bachelor degree as Telematic Engineer, I studied a bootcamp in Full Stack Web Development, I studied English for 6 months in Vancouver CA and I've studied a lot of courses by myself. I'm writing this because I'm passionate about learning, I think learning is one of the best skill that the human can do. However something even better is applying all that knowledge.
+              My name is Alberto Martinez and I am Software Engineer. I was born in Mexico City, I have a bachelor degree as Telematic Engineer, I studied a bootcamp in Full Stack Web Development, I studied English for 6 months in Vancouver CA and I have studied a lot of courses by myself. I am writing this because I am passionate about learning, I think learning is one of the best skill that the human can do. However something even better is applying all that knowledge.
             </p>
             <p className="text-md">
               I have more 11 years of experience working in financial area, working with banks companies managing differents kinds of products, as loan, factoring, morgage, credit cards and more. 
