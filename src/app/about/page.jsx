@@ -14,13 +14,13 @@ const AboutPage = () => {
   const isExpRefInView = useInView(expRef);
 
   return (
-    <motion.div className="h-full" initial={{y:"-200vh"}} animate={{y:"0%"}} transition={{duration: 1}}>
+    <motion.div className="h-full" initial={{y:"-150vh"}} animate={{y:"0%"}} transition={{duration: 1}}>
       {/* CONTAINER */}
       <div className="h-full overflow-scroll lg:flex">
         {/* TEXT CONTAINER */}
-        <div className="p-4 sm:p-8 md:p-12 lg:p-20 xl:p-48 flex flex-col gap-24 md:gap-32 lg:gap-48 xl:gap-64 lg:w-2/3 lg:pr-0 xl:1/2">
+        <div className="p-4 sm:p-8 md:p-12 lg:p-20 xl:p-35 flex flex-col gap-24 md:gap-32 lg:gap-48 xl:gap-64 lg:w-2/3 lg:pr-0 xl:1/2">
           {/* BIOGRAPHY CONTAINER */}
-          <div className="flex flex-col gap-12 justify-center">
+          <div className="flex flex-col gap-12 justify-center top-0">
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             <p className="text-md">
               My name is Alberto Martinez and I am Software Engineer. I was born in Mexico City, I have a bachelor degree as Telematic Engineer, I studied a bootcamp in Full Stack Web Development, I studied English for 6 months in Vancouver CA and I have studied a lot of courses by myself. I am writing this because I am passionate about learning, I think learning is one of the best skill that the human can do. However something even better is applying all that knowledge.
@@ -82,7 +82,7 @@ const AboutPage = () => {
           <div className="flex flex-col gap-12 justify-center pb-48" ref={expRef}>
             <motion.h1 initial={{x:'-300px'}} animate={isExpRefInView ? {x:0} : {}} transition={{delay:0.2}} className="font-bold text-2xl">EXPERIENCE</motion.h1>
             <motion.div initial={{x:'-300px'}} animate={isExpRefInView ? {x:0} : {}} transition={{delay:0.2}}>
-              <div className="flex justify-between h-48">
+              <div className="flex justify-between h-50">
                 {/* LEFT */}
                 <div className="w-1/3">
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">{constants.experience[0].rol}</div>
